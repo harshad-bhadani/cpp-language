@@ -8,5 +8,5 @@ int main()
         sum =sum+a[10];
         cout<<"\n"<<a[10];
     }
-    cout<<"total:"<<sum;
+    cout<<"\ntotal:"<<sum;
 }
