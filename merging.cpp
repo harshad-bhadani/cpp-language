@@ -1,4 +1,5 @@
 #include <iostream>
+#include<string.h>
 using namespace std;
 int main()
 {
@@ -14,7 +15,9 @@ int main()
     for (i = 0; a[i] != '\0'; i++)
     {
     }
-    for (j = 0; b[j] != '\0'; j++)
+    a[i]=' ';
+    i++;
+       for (j = 0; b[j] != '\0'; j++)
     {
         a[i] = b[j];
         i++;
