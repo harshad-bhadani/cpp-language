@@ -5,12 +5,12 @@ class box{
 
     float l,b,h;
     public:
-    void setdata(int x, int y,int z)
+    void setdata(float x, float y,float z)
     {
         l=x,b=y,h=z;
 
     }
-    float getdata()
+    int getdata()
     {
         return l*b*h;
 
@@ -28,9 +28,9 @@ class box{
 int main()
 {
     box a,b,c;
-    a.setdata(4.0,5.0,6.0);
+    a.setdata(4,6,12);
     cout<<"Volume of box a:"<<a.getdata()<<endl;
-    b.setdata(2.0,3.0,4.0);
+    b.setdata(2,3,4);
     cout<<"Volume of box b:"<<b.getdata()<<endl;
 
     c= a/b;
