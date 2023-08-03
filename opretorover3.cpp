@@ -3,19 +3,19 @@ using namespace std;
 
 class box{
 
-    float l,b,h;
+    double l,b,h;
     public:
-    void setdata(float x, float y,float z)
+    void setdata(int x, int y,int z)
     {
         l=x,b=y,h=z;
 
     }
-    int getdata()
+    double getdata()
     {
         return l*b*h;
 
     }
-    box operator/ (box &n)
+     box operator/ (box &n)
     {
         box t;
         n.l=l / n.l;
